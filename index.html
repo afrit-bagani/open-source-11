@@ -1,12 +1,365 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Learn About open source</title>
-</head>
-<body>
-    Learn to make a pull request
-    <section>Feature</section>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="amazon-logo border"></div>
+
+        <div class="address border">
+          <p>Delivery to</p>
+          <div class="shipping-address">
+            <i class="fa-solid fa-location-dot" id="location"></i>
+            <p>India</p>
+          </div>
+        </div>
+
+        <div class="nav-search">
+          <select class="nav-search-select">
+            <option>All</option>
+            <option>Arts & Craft</option>
+            <option>Automotive</option>
+            <option>Baby</option>
+            <option>Beauty & Personal Care</option>
+            <option>Books</option>
+            <option>Boys's Fashion</option>
+            <option>Computer</option>
+          </select>
+          <input class="nav-search-input" placeholder="   Search Amazon" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="language border">
+          🌐<select class="language">
+            <option><p>English</p></option>
+            <option><p>Hindi</p></option>
+            <option><p>Bengali</p></option>
+          </select>
+        </div>
+
+        <div class="sign-in border">
+          <p class="sign-in-p">Hello,Sign in</p>
+          <select class="sign-in-select">
+            <option>Account & Lists</option>
+          </select>
+        </div>
+        <div class="return border">
+          <p class="sign-in-p">Return</p>
+          <p><b>& Order</b></p>
+        </div>
+        <div class="border" id="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-all border">
+          <i class="fa-solid fa-bars"></i>
+          <p>All</p>
+        </div>
+        <div class="border panel-margin"><p>Today's Deal</p></div>
+        <div class="border panel-margin"><p>Customer Service</p></div>
+        <div class="border panel-margin"><p>Registry</p></div>
+        <div class="border panel-margin"><p>Gift Card</p></div>
+        <div class="border panel-margin"><p>Sell</p></div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="hero">
+          <div class="redirect-india">
+            <p>
+              You are on amazon.com. You can also shop on Amazon India for
+              millions of products with fast local delivery.
+              <a
+                id="amazon-india-link"
+                href="https://www.amazon.in/?ref=aisgw_intl_stripe_in"
+                >click here to go to amazon.in</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!shopping-CONTENT>
+
+        <div class="shopping-catagory">
+          <div class="box box1">
+            <h3>Gaming Accessories</h3>
+            <div id="img1"></div>
+            <a class="see-more" href="#">See more</a>
+          </div>
+          <div class="box box2">
+            <h3>Top Deal</h3>
+            <div id="img2"></div>
+            <a class="see-more" href="">See more</a>
+          </div>
+          <div class="box box3">
+            <h3>Fashion Trends You Like</h3>
+            <div id="img3"></div>
+            <a class="see-more" href="">See more</a>
+          </div>
+          <div class="box box4">
+            <h3>Electronics</h3>
+            <div id="img4"></div>
+            <a class="see-more" href="">See more</a>
+          </div>
+          <div class="box box5">
+            <h3>Health & Personal Care</h3>
+            <div id="img5"></div>
+            <a class="see-more" href="">See more</a>
+          </div>
+          <div class="box box6">
+            <h3>Refresh Your Space</h3>
+            <div id="img6"></div>
+            <a class="see-more" href="">See more</a>
+          </div>
+          <div class="box box7">
+            <h3>Beauty Picks</h3>
+            <div id="img7"></div>
+            <a class="see-more" href="">See more</a>
+          </div>
+          <div class="box box8">
+            <h3>Shop deal in Fashion</h3>
+            <div id="img8"></div>
+            <a class="see-more" href="">See more</a>
+          </div>
+        </div>
+        <hr />
+        <div class="signup-div">
+          <p>See personalised recommendations</p>
+          <label for="sign-up-botton">
+            <button id="sign-up-button" type="submit">Sign In</button>
+          </label>
+          <p>New Customer? <a id="a" href="#">Sign here</a></p>
+        </div>
+        <hr />
+      </section>
+    </main>
+
+    <!-- <!    FOOTER        > -->
+
+    <footer>
+      <div id="footer-1">Back to top</div>
+      <div id="footer-2">
+        <div class="msg">
+          <ul>
+            Get to know us<br /><br />
+            <li>Career</li>
+            <li>Blog</li>
+            <li>About Amazon</li>
+            <li>Investor Relations</li>
+            <li>Amazon Device</li>
+            <li>Amazon Science</li>
+          </ul>
+        </div>
+        <div class="msg border">
+          <ul>
+            Make Money with Us<br /><br />
+            <li>Sell Products on Amazon</li>
+            <li>Sell on Amazon Business</li>
+            <li>Sell apps on Amazon</li>
+            <li>Become an Affiliate</li>
+            <li>Advertise your Products</li>
+            <li>Self Public with Us</li>
+            <li>Host on Amazon Hub</li>
+            <li>>See more Make Money with Us</li>
+          </ul>
+        </div>
+        <div class="msg">
+          <ul>
+            Amazon Payment Products<br /><br /><br />
+            <li>Amazon Business card</li>
+            <br />
+            <li>Shop Business Card</li>
+            <br />
+            <li>Shop with points</li>
+            <br />
+            <li>Reload your Balance</li>
+            <br />
+            <li>Amazon Currency Converter</li>
+          </ul>
+        </div>
+        <div class="msg">
+          <ul>
+            Let us Help you<br /><br />
+            <li>Amazon And COVID-19</li>
+            <li>Your Account</li>
+            <li>Your Orders</li>
+            <li>Shipping Rates & Policies</li>
+            <li>Returns & Replacement</li>
+            <li>Manage Your Content & Devices</li>
+            <li>Amazon Assistant</li>
+            <li>Help</li>
+          </ul>
+        </div>
+      </div>
+      <!-- <! footer 3 > -->
+      <div id="footer-3">
+        <div id="amazon-2nd-logo"></div>
+        <div id="language-footer">
+          <i class="fa-solid fa-globe" id="globe"></i>
+          <select id="footer-lan">
+            <option>English</option>
+          </select>
+        </div>
+        <div id="dollar"><pre>$ USD-U.S.Dollar</pre></div>
+        <div id="us">🇺🇲USA</div>
+      </div>
+      <!-- <! FOOTER 4> -->
+      <div class="footer-4">
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Amazon Music</h6>
+          <p class="footer-4-p">Steam Millions of Songs</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Amazon Advertising</h6>
+          <p class="footer-4-p">Find, Attract, & Engage Customer</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">6pm</h6>
+          <p>Score deal on Fashion Brands</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Abe Books</h6>
+          <p>Books Arts & Collection</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">ACX</h6>
+          <p>Audiobook Publishing made easy</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Sell on Amazon</h6>
+          <p>Start a selling Account</p>
+        </div>
+        <div class="footer-4-box border2" id="7">
+          <h6 class="footer-4-h6">Amazon Business</h6>
+          <p>Everything for your Business</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">AmazonGlobal</h6>
+          <p>Ship Order Internationally</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Home Services</h6>
+          <p>Experienced Pros happiness Guarantee</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Amazon Ignite</h6>
+          <p>Sell your Original Digital Educational Resources</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Amazon Web Service</h6>
+          <p>Scalable Cloud Computer Service</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Audible</h6>
+          <p>Listen to Books & Original Audio Performance</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Book Depository</h6>
+          <p>Books with Free Delivery WorldWide</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Box Office Mozo</h6>
+          <p>Find Movie Box office Date</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Comixology</h6>
+          <p>Thousand of Digital Comics</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">DP Riview</h6>
+          <p>Digital Photography</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Fabric</h6>
+          <p>Sewings, Quilting & knitting</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Goodreads</h6>
+          <p>Digital Books & Recommendations</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">IMDB</h6>
+          <p>Movie TV & Celebrities</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">IMBB Pro</h6>
+          <p>Get info Entertainment Professional Needs</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Kindle Direct Publishing</h6>
+          <p>Indie Digital & Print Publishing Made easy</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Prime Video Direct</h6>
+          <p>Video Distribution made easy</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Shop Bob</h6>
+          <p>Designer Fashion Brands</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6"></h6>
+          <p></p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Woot!</h6>
+          <p>Deals and Shenanigans</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Zappos</h6>
+          <p>Shoes & Clothing</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Ring</h6>
+          <p>Smart Home security System</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">eero WiFi</h6>
+          <p>Stream 4k video on Every Room</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Blink</h6>
+          <p>Smart Security for Every Home</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Neighbour App</h6>
+          <p>Real time Crime & Safety Alerts</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">Amazon Subscription Boxes</h6>
+          <p>Top Subscription box-Right to your Door</p>
+        </div>
+        <div class="footer-4-box border2">
+          <h6 class="footer-4-h6">PillPack</h6>
+          <p>Pharmacy Simplified</p>
+        </div>
+      </div>
+
+      <! FOOTER 5 >
+
+      <div class="footer-5">
+        <div>
+          <pre>
+Condition of Use  Privacy Notice  Your ads  Privacy choice
+        © 1996-2023, Amazon.com, Inc or its affiliates ✔️️❌</pre
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

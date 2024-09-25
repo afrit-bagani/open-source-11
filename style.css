@@ -1,0 +1,395 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: border-box;
+}
+
+.border:hover {
+  border: 2px solid white;
+  border-radius: 1.5px;
+}
+
+.border2:hover {
+  text-decoration: underline;
+}
+
+/*NAVIGATION-BAR*/
+
+.navbar {
+  height: 60px;
+  background-color: rgb(19, 25, 33);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.amazon-logo {
+  height: 50px;
+  width: 114px;
+  background-image: url("images/a_logo.png");
+  background-size: cover;
+}
+
+.address {
+  height: 50px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shipping-address {
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: flex;
+}
+
+#location {
+  position: relative;
+  right: 5px;
+}
+
+.nav-search {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-search-select {
+  height: 45px;
+  width: 50px;
+  background-color: #f3f3f3;
+  text-align: center;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.nav-search-input {
+  height: 45px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+button {
+  height: 45px;
+  width: 50px;
+  background-color: #ff9c2b;
+  font-size: 1.2rem;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.language {
+  background-color: rgb(19, 25, 33);
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-select {
+  height: 25px;
+  width: 125px;
+  background-color: rgb(19, 25, 33);
+  color: white;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.sign-in-p {
+  font-size: 0.7rem;
+}
+
+#cart {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+/*PANEL*/
+
+.panel {
+  height: 30px;
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.panel-all {
+  width: 60px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.panel-margin {
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+/*HERO-SECTION*/
+
+.hero {
+  height: 392px;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+}
+
+.redirect-india {
+  height: 50px;
+  width: 95%;
+  background-color: #f3f3f3;
+  font-size: 13.5px;
+  border: 2px solid transparent;
+  border-radius: 1.5px;
+  position: relative;
+  top: 250px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#amazon-india-link {
+  color: #007185;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*SHOPPING-CONTENT*/
+
+.shopping-catagory {
+  height: 50em;
+  background-color: #dbd7cc;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.box {
+  height: 300px;
+  width: 250px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.see-more {
+  color: #007185;
+  text-decoration: none;
+}
+
+#img1 {
+  height: 80%;
+  background-image: url("images/gaming_accessory.png");
+  background-size: contain;
+}
+
+#img2 {
+  height: 80%;
+  background-image: url("images/top_deal.png");
+  background-size: cover;
+}
+
+#img3 {
+  height: 80%;
+  background-image: url("images/fashoin_trends.png");
+  background-size: contain;
+}
+
+#img4 {
+  height: 80%;
+  background-image: url("images/electronics.jpg");
+  background-size: contain;
+}
+
+#img5 {
+  height: 80%;
+  background-image: url("images/health_personal_care.png");
+  background-size: cover;
+}
+
+#img6 {
+  height: 80%;
+  background-image: url("images/refresh_your_space.png");
+  background-size: contain;
+}
+
+#img7 {
+  height: 80%;
+  background-image: url("images/beauty.jpg");
+  background-size: contain;
+}
+
+#img8 {
+  height: 80%;
+  background-image: url("images/top_deal_fashion.png");
+  background-size: cover;
+}
+
+#img9 {
+  height: 80%;
+  background-image: url("images/refresh_your_space.jpg");
+  background-size: contain;
+}
+
+.signup-div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: flex;
+}
+
+#sign-up-button {
+  background-color: #dea514;
+  height: 40px;
+  width: 300px;
+  font-weight: bolder;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+p.signup-div {
+  color: yellow;
+}
+
+/*   FOOTER   */
+
+footer {
+  height: 1080px;
+}
+
+#footer-1 {
+  height: 4%;
+  background-color: rgb(19, 25, 33);
+  color: white;
+  opacity: 0.95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-2 {
+  height: 40%;
+  color: white;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.msg {
+  height: 80%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-weight: 300;
+  font-size: 14px;
+  list-style: none;
+}
+
+#footer-3 {
+  height: 10%;
+  color: white;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#amazon-2nd-logo {
+  height: 70px;
+  width: 84px;
+  background-image: url("images/a2_logo.png");
+  background-size: contain;
+  margin-right: 40px;
+}
+
+#language-footer {
+  color: white;
+  background-color: #222f3d;
+  margin-right: 7px;
+  border: 0.2px solid white;
+}
+
+#globe {
+  position: relative;
+  left: 2px;
+}
+
+#footer-lan {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+#dollar {
+  border: 0.2px solid white;
+  margin-right: 7px;
+}
+
+#us {
+  width: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 0.2px solid white;
+}
+
+/*FOOTER-4*/
+
+.footer-4 {
+  height: 40%;
+  color: white;
+  background-color: rgb(19, 25, 33);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-4-h6 {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer-4-box {
+  height: 20%;
+  width: 14.28571429%;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.footer-5 {
+  height: 6%;
+  color: white;
+  background-color: rgb(19, 25, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
